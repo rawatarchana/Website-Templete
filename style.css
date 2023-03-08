@@ -3,34 +3,38 @@
     margin: 0;
     padding: 0;
 }
+/*for  body*/
 body {
     font-family: sans-serif;
 }
-#nav-bar{
+/*for nav-bar*/
+#nav-bar {
     position: sticky;
     top: 0;
     z-index: 999;
 }
+/*for nav-bar-icon*/
 .navbar-toggler-icon {
     background-image: none;
     color: #fff;
 }
-.navbar{
+/*for navbar*/
+.navbar {
     background: linear-gradient(to right, #2457d7, #3b125d);
-    text-align:center;
+    text-align: center;
 }
-.navbar-brand{
+/*for navbar-brand*/
+.navbar-brand {
     margin-left: 40px !important;
     color: #fff !important;
 }
-
-.navbar-nav li
-{
-    padding:0 20px;
+/*for navbar list*/
+.navbar-nav li {
+    padding: 0 20px;
     margin-right: 10px;
 }
-.navbar-nav a
-{
+/*for navbar anchor */
+.navbar-nav a {
     color: white;
     font-weight: 200;
     font-family: Arial;
@@ -41,27 +45,29 @@ body {
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
-.navbar-toggler{
-   border: none !important;
+
+.navbar-toggler {
+    border: none !important;
 }
-.footer
-{
+
+.footer {
     background-color: #a49797;
     max-width: 100% !important;
 }
-.footer a
-{
+
+.footer a {
     color: white;
 }
-.main_img
-{
+
+.main_img {
     background-image: url('images/index.jpg.webp');
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.cover-heading{
+
+.cover-heading {
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
@@ -71,76 +77,86 @@ body {
 .cover-heading span {
     color: #face0c;
 }
-.app{
-    background-color:#eef2f6;
+
+.app {
+    background-color: #eef2f6;
     width: 100%;
 
 }
-.app_img{
+
+.app_img {
     background-image: url('images/app.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 
 }
-.app_heading{
+
+.app_heading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.feature{
+
+.feature {
     height: 100%;
 }
-.feature>*{
+
+.feature>* {
     padding: 0 !important;
 }
 
 .feature img {
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 300px;
 }
 
-.feature_img1
-{
+.feature_img1 {
     background-image: url('images/featured_1.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 
 }
-.feature_img2{
+
+.feature_img2 {
 
     background-image: url('images/featured_2.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 }
-.feature_img3{ 
+
+.feature_img3 {
     background-image: url('images/featured_3.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 }
-.feature_img4{
-    
+
+.feature_img4 {
+
     background-image: url('images/featured_4.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 }
-.feature_img5{
-    
+
+.feature_img5 {
+
     background-image: url('images/featured_5.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 }
-.feature_img6{
-    
+
+.feature_img6 {
+
     background-image: url('images/featured_6.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 
 }
+
 .feature-tile {
     position: relative;
     bottom: 80px;
@@ -149,38 +165,46 @@ body {
     background-color: #000;
     opacity: 0.6;
 
-    
+
 }
+
 .feature-icon {
-    color:#ff1a4b;
-    font-size:45px;
+    color: #ff1a4b;
+    font-size: 45px;
 }
-.feature-heading, .feature-heading2 {
-    color: #fff;
-    font-size:16px;
-    height:50%;
-    line-height:20px;
-    margin-bottom:0;
-}
+
+.feature-heading,
 .feature-heading2 {
-    font-size:14px;
+    color: #fff;
+    font-size: 16px;
+    height: 50%;
+    line-height: 20px;
+    margin-bottom: 0;
 }
-.update{
+
+.feature-heading2 {
+    font-size: 14px;
+}
+
+.update {
     background-image: url('images/index.jpg.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    color:#fff;
+    color: #fff;
 }
-.update_heading{
+
+.update_heading {
     color: yellow;
 }
-.update_img1{
+
+.update_img1 {
     background-image: url('images/news_1.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
-.update_img2{
+
+.update_img2 {
     background-image: url('images/news_2.jpg.webp');
     background-repeat: no-repeat;
     background-size: cover;
